@@ -1,0 +1,1074 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>OpenApoc: new X-COM: Apocalypse</title>
+    <meta name="description" content="OpenApoc - open-source re-implementation of the original X-COM: Apocalypse">
+    <meta name="author" content="mak">
+
+    <!-- mobile specific metas
+    ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:site_name" content="OpenApoc its new X-COM: Apocalypse" />
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="http://openapoc.org/p/openapoc.og.png" />
+	<meta property="og:title" content="OpenApoc its open-source X-COM: Apocalypse" />
+	<meta property="og:description" content="OpenApoc - official promo website and forum for discussions and development: Coding, Data, Ports, Translations, Game Mods, Tools, Welcome! Introduce Yourself area" />
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@OpenApoc">
+	<meta name="twitter:title" content="OpenApoc its open-source X-COM: Apocalypse">
+	<meta name="twitter:description" content="OpenApoc - official promo website and forum for discussions and development: Coding, Data, Ports, Translations, Game Mods, Tools, Welcome! Introduce Yourself area">
+	<meta name="twitter:image" content="http://openapoc.org/p/openapoc.og.png">
+    <!-- CSS
+    ================================================== -->
+	<link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+
+<body id="top">
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
+            <div class="line-scale-pulse-out">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- header 
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="row">
+            <div class="header-logo">
+                <a class="site-logo" href="index.html">
+                    <img src="images/logo.png" alt="Homepage">
+                </a>
+            </div>
+    
+            <nav class="header-nav-wrap">
+                <ul class="header-main-nav">
+                    <li class="current"><a class="smoothscroll" href="#home" title="intro">Intro</a></li>
+                    <li><a class="smoothscroll" href="#about" title="about openapoc">About</a></li>
+                    <li><a class="smoothscroll" href="#features" title="openapoc features">Features</a></li>
+                    <li><a class="smoothscroll" href="#download" title="download openapoc">Download</a></li>		
+					<li><a target="_blank" href="https://github.com/OpenApoc/OpenApoc" title="openapoc GitHub">GitHub</a></li>	
+					<li><a target="_blank" href="http://openapoc.org/forums/" title="OpenApoc Forum">Forum</a></li>			
+                </ul>
+    
+                <div class="header-cta">
+                 
+		<nav id="primary_nav_wrap">
+		<ul>
+		  <li><a href="#contribute" class="btn btn--primary header-cta__btn smoothscroll">Contribute</a>
+			<ul>
+			  <li><a href="#">For lazy</a></li>
+			  <li><a href="#">For coders</a></li>
+			  <li><a href="#">For translators</a></li>
+			  <li><a href="#">For testers</a></li>
+			  <li><a href="#">For modders</a></li>
+			  <li><a href="#">For artists</a></li>
+			  <li><a href="#">For donators</a></li>
+			  <li><a href="#">General Faq</a></li>
+			  <li><a href="#">Whats Left list</a></li>
+			</ul>
+		  </li>
+		</ul>
+		</nav>
+                </div>
+            </nav> <!-- end header-nav-wrap -->
+    
+            <a class="header-menu-toggle" href="#"><span>Menu</span></a>
+        </div>
+
+    </header> <!-- end header -->
+
+
+    <!-- home
+    ================================================== -->
+    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=1680 data-natural-height=900 data-position-y=center>
+
+        <div class="shadow-overlay"></div>
+
+        <div class="home-content">
+
+            <div class="row home-content__main">
+
+                <div class="home-content__left">
+                    <h1>
+                    Dedicated to all fans of X-COM: Apocalypse!
+                    </h1>
+    
+                    <h3>
+                    OpenApoc is mod for X-COM: Apocalypse, it's  built on a new, free, 
+					and open-source engine that re-implements the features of the original. 
+					<br>OpenApoc requires the original files to run, licensed under the MIT and written in C++ / SDL2. 
+					OpenApoc is currently in an Alpha state and playable.
+                    </h3>
+    
+                    <div class="home-content__btn-wrap">
+                        <a href="#download" class="btn btn--primary home-content__btn smoothscroll">
+                            Download OpenApoc
+                        </a>
+                    </div>
+                </div> <!-- end home-content__left-->
+
+                <div class="home-content__right">
+                    <img src="images/flag.png">
+                </div> <!-- end home-content__right -->
+
+            </div> <!-- end home-content__main -->
+
+<ul class="home-content__social">
+                <li>
+                <a target="_blank" href="https://github.com/OpenApoc/OpenApoc"><i class="fab fa-github" aria-hidden="true"></i><span>GitHub</span></a>
+                </li>
+				<li>
+                <a target="_blank" href="https://discord.gg/f8Rayre"><i class="fab fa-discord" aria-hidden="true"></i><span>Discord</span></a>
+                </li>
+                <li>
+                <a target="_blank" href="https://fb.com/openapoc"><i class="fab fa-facebook-f" aria-hidden="true"></i><span>Facebook</span></a>
+                </li>
+                <li>
+                <a target="_blank" href="https://www.youtube.com/c/OpenApoc"><i class="fab fa-youtube" aria-hidden="true"></i><span>YouTube</span></a>
+                </li>
+				<li>
+                <a target="_blank" href="https://vk.com/openapoc"><i class="fab fa-vk" aria-hidden="true"></i><span>Vkontakte</span></a>
+                </li>
+                <li>
+                <a target="_blank" href="https://www.reddit.com/r/OpenApoc"><i class="fab fa-reddit" aria-hidden="true"></i><span>Reddit</span></a>
+                </li>
+            </ul> <!-- end home-social -->
+
+
+        </div> <!-- end home-content -->
+
+        <a href="#about" class="home-scroll smoothscroll">
+            <span class="home-scroll__text">Scroll</span>
+            <span class="home-scroll__icon"></span>
+        </a> 
+
+    </section> <!-- end s-home -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+
+        <div class="row section-header has-bottom-sep" data-aos="fade-up" data-aos-duration="300">
+            <div class="col-full">
+                <h1 class="display-1">
+                    X-COM 3: Apocalypse is still the best.
+                </h1>
+                <p class="lead">
+The X-COM 3: Apocalypse concept was much more ambitious than the first two games. 
+The ideas conceived by Julian and Nick Gollop were so far ahead of their time. 
+However, only a small part of their concept was realized. 
+Our goal at OpenApoc is to implement this grand, original idea and more.
+                </p>
+				
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row wide about-desc" data-aos="fade-up" data-aos-duration="300">
+
+            <div class="col-full slick-slider about-desc__slider">
+
+                <div class="about-desc__slide">
+                    <h3 class="item-title">Leaders.</h3>
+
+                    <p>
+Each corporation was supposed to have a leader (some of the models were included in the final game but disabled) who could be detained, arrested, interrogated, or killed. These actions would have had a real influence on the parent organization;
+                    </p>
+                </div>  <!-- end about-desc__slide -->
+
+                <div class="about-desc__slide">
+                    <h3 class="item-title">Agent versatility.</h3>
+
+                    <p>
+X-COM operatives could perform the functions of spies by performing intelligence operations within other organizations in order to obtain more detailed information about what was happening around the city and wider region;
+                    </p>
+                </div>  <!-- end about-desc__slide -->
+
+                <div class="about-desc__slide">
+                    <h3 class="item-title">Diplomacy.</h3>
+
+                    <p>
+It was planned to introduce a developed system of diplomatic relations, in which the player could enter into alliances with other organizations and provoke the start of corporate and gang wars, amongst other things;
+                    </p>
+                </div>  <!-- end about-desc__slide -->
+
+                <div class="about-desc__slide">
+                    <h3 class="item-title">Realistic Economy.</h3>
+
+                    <p>
+Organizations had to conduct real economic activity, compete in the markets, could sell and buy buildings at auctions. They could even apply for planning permission to expand the cities!;
+                    </p>
+                </div>  <!-- end about-desc__slide -->
+				                <div class="about-desc__slide">
+                    <h3 class="item-title">Known Cut Items.</h3>
+
+                    <p>
+CEOs, VIPs, Soldiers, Zorium, Tracker Gun and Clip, ForceWeb, Energy Pod,  Dimension Destabilizer, Psi-Grenade, Multi-Tracker, Mind Shield, Alien Detector, Dimension Force Field, Dimension Shifter, Cells, Advanced Alien Containment, Live Overspawn, Walls, One Way to Win;
+ </p>
+                </div>  <!-- end about-desc__slide -->
+
+                <div class="about-desc__slide">
+                    <h3 class="item-title">More Alien Worlds.</h3>
+
+                    <p>
+It was planned that the game would have multiple planets, space travel, space pirates and several procedurally generated alien dimensions. All of this territory could be captured by the alien forces if X-COM does not protect them. Even other organisations pose a threat!;
+                    </p>
+                </div>  <!-- end about-desc__slide -->
+
+                <div class="about-desc__slide">
+                    <h3 class="item-title">Skills and Actions.</h3>
+
+                    <p>
+Agents were to have a wider series of skills: forensic science, subversion, swimming, interrogation, driving and pilot abilities. Also, the developers partially implemented climbing and acrobatic abilities but these were disabled in the final game;
+                    </p>
+                </div>  <!-- end about-desc__slide -->
+
+                <div class="about-desc__slide">
+                    <h3 class="item-title">Multiplayer.</h3>
+
+                    <p>
+The game also featured a scenario generator and multiplayer options using a hotseat turn based system or a real time LAN option. This was mostly ready but cut before final release due to issues with the old IPX protocol;
+                    </p>
+                </div>  <!-- end about-desc__slide -->
+				
+            </div> <!-- end about-desc__slider -->
+            
+        </div> <!-- end about-desc -->
+		
+		
+		
+
+
+    </section> <!-- end s-about -->
+
+
+    <!-- about-how
+    ================================================== -->
+    <section id="about-how" class="s-about-how">
+
+        <div class="row">
+		<a  href="https://www.youtube.com/watch?v=FlPalDkWsuA" data-lity>
+           <div class="col-full video-bg" data-aos="fade-up" data-aos-duration="300">
+
+                <div class="shadow-overlay"></div>
+
+                <a  class="btn-video" href="https://www.youtube.com/watch?v=FlPalDkWsuA" data-lity>
+                    <span class="video-icon"></span>
+             </a>
+
+                <div class="stats">
+                    <div class="item-stats">
+                        <span class="item-stats__num">
+                            17.1T
+                        </span>
+                        <span class="item-stats__title">
+                            Downloads
+                        </span>
+                    </div> <!-- end item-stats -->
+                    <div class="item-stats">
+                        <span class="item-stats__num">
+                            2.5K
+                        </span>
+                        <span class="item-stats__title">
+                            Commits at GitHub
+                        </span>
+                    </div> <!-- end item-stats -->
+                </div>
+           </div> <!-- end video-bg -->
+		      </a>
+		   
+        </div>
+
+        <div class="row process-wrap">
+
+            <h2 class="display-2 text-center" data-aos="fade-up" data-aos-duration="300">How the OpenApoc Community Works?</h2>
+
+            <div class="process" data-aos="fade-up" data-aos-duration="300">
+                <div class="process__steps block-1-2 block-tab-full group">
+
+                    <div class="col-block step">
+                        <h3 class="item-title">Original Installation</h3>
+                        <p>To run OpenApoc, you need a copy of the original X-COM: Apocalypse as a CD-ROM ISO or via Steam/GOG distributions. We don't support piracy, or pirate copies of the game. Join our Discord for advice on how to obtain legal copies of the game or set them up under DOSBox.
+                        </p> 
+                    </div>
+
+                    <div class="col-block step">
+                        <h3 class="item-title">OpenApoc Setup</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+                        </p> 
+                    </div>
+               
+                    <div class="col-block step">
+                        <h3 class="item-title">Bug Reporting</h3>
+                        <p>Bug Reporting is important part of OpenApoc development and when you find one, you can use debug commands to help us understand it better. To report bugs in OpenApoc, please use our <a target="_blank" href="https://github.com/OpenApoc/OpenApoc/issues" title="OpenApoc Github issue tracker">Github issue tracker</a>. Please describe bug us much as possible and attach openapoc_log.txt from game root, screens, videos if needed.
+                        </p> 
+                    </div>
+
+                    <div class="col-block step">
+                        <h3 class="item-title">Your contribution</h3>
+                        <p>OpenApoc is free, open-source, software therefore anything you can do to help the project, even just playing it, makes us, and the wider community happy. If you want to contribute, we accept programmers, reverse engineers, text translators and testers. Please check out our contribution section to see how you can help the project. 
+                        </p> 
+                    </div>  
+
+                </div> <!-- end process__steps -->
+           </div> <!-- end process -->
+        </div> <!-- end about-how -->
+
+    </section> <!-- end s-about-how -->
+
+
+
+	
+	
+	
+    <!-- features
+    ================================================== -->
+    <section id="features" class="s-features target-section">
+
+        <div class="row section-header has-bottom-sep" data-aos="fade-up" data-aos-duration="300">
+            <div class="col-full">
+                <h1 class="display-1">
+                    OpenApoc Features.
+                </h1>
+                <p class="lead">
+                    Open-source model move old games to a new modern level, its new way for old games communities to growth and modding constantly progress by making influx of new players and a new content. 
+                </p>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row features block-1-3 block-m-1-2">
+
+            <div class="col-block item-feature" data-aos="fade-up" data-aos-duration="300">
+                <div class="item-feature__icon">
+                    <i class="icon-shuffle"></i>
+                </div>
+                <div class="item-feature__text">
+                    <h3 class="item-title">Crossplatform engine</h3>
+                    <p>Port the game to any platform you like (Windows, Linux, Android, Mac Os etc), customize it to your liking, or use it to make your own far-fetched remakes. 
+					The code is fully documented and open-source so anyone can take a crack at it.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block item-feature" data-aos="fade-up" data-aos-duration="300">
+                <div class="item-feature__icon">
+                    <i class="icon-lego-block"></i>
+                </div>
+                <div class="item-feature__text">
+                    <h3 class="item-title">Modding system</h3>
+                    <p>Mods gives game new life and almost anyone with imagination and minimal programming skills 
+					can create mods that will sometimes change the face of the game completely. Or you want tweak some aspect - its easy and none of it is hardcoded.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block item-feature" data-aos="fade-up" data-aos-duration="300">
+                <div class="item-feature__icon">
+                    <i class="icon-search"></i>
+                </div>  
+                <div class="item-feature__text">
+                    <h3 class="item-title">Full Debug System</h3>
+                    <p>Everyone makes errors so Debug System is essential to finding errors and is your best friend while programming. 
+					Its interactive debugging, control flow analysis, unit testing, integration testing, log file analysis, memory dumps.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block item-feature" data-aos="fade-up" data-aos-duration="300">
+                <div class="item-feature__icon">
+                    <i class="icon-cmd"></i>
+                </div>
+                <div class="item-feature__text">
+                    <h3 class="item-title">Full Hotkey System</h3>
+                    <p>In OpenApoc added new Hotkeys for gameplay and as for debug system so now after you learn it you get more joy and capabilities from game.
+					<a target="_blank" href="https://github.com/OpenApoc/OpenApoc/blob/master/README_HOTKEYS.txt">Read OpenApoc Hotkey list</span></a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block item-feature" data-aos="fade-up" data-aos-duration="300">
+                <div class="item-feature__icon">
+                    <i class="icon-fast-forward"></i>
+                </div>
+                <div class="item-feature__text">
+                    <h3 class="item-title">Skirmish Module</h3>
+                    <p>In skirmish module you can choose fast fight wich any amount or kind of enemies, weapons, maps area, test any tactics.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="col-block item-feature" data-aos="fade-up" data-aos-duration="300">
+                <div class="item-feature__icon">
+                    <i class="icon-desktop"></i>
+                </div>
+                <div class="item-feature__text">
+                    <h3 class="item-title">Screen Resolutions</h3>
+                    <p>Here is simple you get optimization for any kind of modern monitor resolutions that will give you additional opportunities in battle and enjoyment of the game.
+                    </p>
+                </div>
+            </div>
+
+        </div> <!-- end features -->
+
+
+		
+		
+
+    </section> <!-- end s-features -->
+
+
+    <!-- contribute
+    ================================================== -->
+<section id="contribute" class="s-contribute target-section">
+	<div class="row section-header has-bottom-sep align-center" data-aos="fade-up" data-aos-duration="300" >
+		
+		<div class="col-full">
+			<h1 class="display-1">
+				Ways to Get Involved and become part of OpenApoc
+			</h1>
+			<p class="lead">
+				Thank you for your interest in contributing to the OpenApoc project! <br>
+				Contributing is most inspiring and honorable mission and contributors are driving force behind improvements to the OpenApoc and the community itself.
+			</p>
+		</div>
+	</div>
+	<!-- end section-header -->
+	<div class="row half-bottom" data-aos="fade-up" data-aos-duration="300">
+		<div class="col-full tab-full">
+
+	<div class="row features block-1-1 block-m-1-1">
+
+            <div class="col-block item-feature" data-aos="fade-up" data-aos-duration="300">
+                <div class="item-feature__text">
+                    <h3 class="item-title">Why we need donations?</h3>
+                    <p>Dear Apoc fan, you probably know that the development of OpenApoc can last years because this is free and Open-source project. 
+And many people want to speed up the development of their favorite game, but now there are not enough active programmers for this.
+And in order to speed this up we can collect a sum of money that will help launch a series of events thanks to which new people find out about OpenApoc and thus will bring more Apoc fans and active programmers. 
+                    </p>
+                </div>
+			</div>
+	</div>
+	<div class="row  block-1-2 block-m-1-2">
+            <div class="col-block item-feature" data-aos="fade-up" data-aos-duration="300">
+                <div class="item-feature__icon">
+                    <i class="far fa-lightbulb"></i>
+                </div>
+                <div class="item-feature__text">
+                    <h3 class="item-title">Ideas that can help:</h3>
+                    <p>■ Buying 1 or 3 Phoenix Point and in future 1-3 XCOM 3 Games and holding several contests about X-Com Apocalypse on popular social sites, closer to the release of the game.
+<br>■ Symbolic cash rewards for completing specific game mechanics from the roadmap list (after dev. check)
+<br>■ Buying targeted advertising (35 years, programmer, man, X-Com Apocalypse) on websites, social networks or search engines.</i>
+<br>■ Thats not final list
+                    </p>
+                </div>
+			</div>
+			<div class="col-block item-feature" data-aos="fade-up" data-aos-duration="300">
+                <div class="item-feature__icon">
+                    <i class="fas fa-bullseye"></i>
+                </div>
+                <div class="item-feature__text">
+                    <h3 class="item-title">So our goal now is 300$</h3>
+					
+                    <p>You can leave in comment specify where you donate
+					<br>■ 60$ and 40$ for Phoenix point games, 
+					<br>■ 100$ cash reward for first mechanics that will be done, 
+					(reward for finishing:
+					2.1 Aliens moving from building to building  
+					2.3 Funding for X-Com and orgs every week)
+					
+					<br>■ 100$ for first Advertising campaign or for second cash reward.
+					<br>■ Reward for coding dont have limit, 100$ just starting amount.
+                    </p>
+                </div>
+			</div>
+	</div>
+
+			
+			<div class="item-plan--popular aos-init aos-animate" data-aos="fade-up">
+                <div class="item-plan__block"> 
+
+	<div class="w3-light-grey spacemtop w3-round">
+    <div class="w3-container w3-blue w3-round" style="width:1%">&nbsp;</div>
+	</div>
+	<div class="col-four center tab-full">
+<div class="donatstats">0$</div>
+Raised
+    </div>
+	<div class="col-four center tab-full">
+<div class="donatstats">0</div>
+Donors
+    </div>
+	<div class="col-four center tab-full">
+<div class="donatstats">300$</div>
+Goal
+    </div>
+	
+				
+				<p class="item-plan__per spacebot center space col-full tab-full">
+			<a target="_blank" class="white" href="#">Here</a> you can check or write about your donation and whether we have reached the target amount.
+				</p>
+
+						
+                        <a target="_blank" class="btn btn--primary large full-width" href="#0">Donate via PayPal <i class="fab fa-paypal" style="font-size:4rem!important; vertical-align: middle; font-weight:normal!important;"></i></a>
+						<p class="item-plan__per">
+						<u>Mandatory Legal Stuff:</u>
+By making a donation to the OpenApoc project you signify that you acknowledged, understood, accepted, and agreed to the terms and conditions contained in this notice. All donations are done via the PayPal secure payment platform, which holds full responsibility over your payment information. Your donation to the OpenApoc project is voluntary and is not a fee for any services, goods, or advantages, and making a donation to the OpenApoc project does not entitle you to any services, goods, or advantages. 
+We have the right to use the money you donate to the OpenApoc project in any lawful way and for any lawful purpose we see fit and we are not obligated to disclose the way and purpose to any party unless required by applicable law. Although OpenApoc is free software, to our best knowledge the OpenApoc project does not have any tax exempt status (the OpenApoc project is neither a registered non-profit corporation nor a registered charity in any country). Your donation may or may not be tax-deductible; please consult this with your tax advisor. We will not publish/disclose your name and e-mail address without your consent, unless required by applicable law. Your donation is non-refundable and issuing a chargeback will be penalized.
+						</p>
+
+                
+                </div>
+            </div>
+		</div>
+		
+		
+		<div class="col-six tab-full" data-aos="fade-up" data-aos-duration="300">
+			<h3>Contribution</h3>
+
+				<div class="tab first">
+      <input id="tab-iwantcontribute" type="radio" name="tabs2">
+      <label for="tab-iwantcontribute">I want contribute but im lazy</label>
+      <div class="tab-content">
+					<ol>
+						<li>You can join our social groups and repost/like some content or leave your wise opinion in comment =].</li>
+						<li>You can leave comments about OpenApoc in X-Com Apocalypse topics or article.</li>
+						<li>You can make short youtube review or guide about OpenApoc.</li>
+						<li>You can write comments or article about OpenApoc at your favorite web resource.</li>
+						<li>If problems or questions arise, join our discord and we help you: 
+						<a target="_blank" class="btn btn--mini full-width" href="https://discord.gg/0nS950g1olwDxzXB">OpenApoc at Discord <i class="fab fa-discord" aria-hidden="true"></i></a>
+						</li>
+					</ol>
+
+      </div>
+    </div>
+    <div class="tab">
+		  <input id="tab-iwantcode" type="radio" name="tabs2">
+		  <label for="tab-iwantcode">I want start coding for OpenApoc</label>
+		  <div class="tab-content">
+					<ol>
+						<li>OpenApoc is an open-source and written in C++ / SDL2. 
+						<br>More info and guides:
+						<a target="_blank" class="btn btn--mini full-width" href="https://github.com/OpenApoc/OpenApoc/blob/master/README.md">Source code at GitHub <i class="fab fa-github farp"></i></</a>
+						<a target="_blank" class="btn btn--mini full-width" href="https://github.com/OpenApoc/OpenApoc/issues">Issues list at GitHub <i class="fab fa-github farp"></i></</a>
+						<a target="_blank" class="btn btn--mini full-width" href="https://github.com/OpenApoc/OpenApoc/graphs/contributors">code contributors list <i class="fab fa-github farp"></i></a>
+						</li>
+						<li>If problems or questions arise, join our discord and we help you: 
+						<a target="_blank" class="btn btn--mini full-width" href="https://discord.gg/0nS950g1olwDxzXB">OpenApoc at Discord <i class="fab fa-discord" aria-hidden="true"></i></a>
+						</li>
+					</ol>
+		  </div>
+    </div>
+	<div class="tab">
+		  <input id="tab-iwanttranslate" type="radio" name="tabs2">
+		  <label for="tab-iwanttranslate">I want improve\translate OpenApoc</label>
+		  <div class="tab-content">
+					<ol>
+						<li> 
+						 Register at transifex and apply for needed language:
+						<a target="_blank" class="btn btn--mini full-width" href="https://www.transifex.com/x-com-apocalypse/apocalypse/languages/">OpenApoc at Transifex</a>
+						</li>
+						<li>Translate/improve needed strings or make request for new language</li>
+						<li>Download your language file (wich .po ext.), then put .po file to the openapoc\data\languages\ by replace existing </li>
+						<li>Then go to www.po2mo.net and convert .po file, then donload it and replace file in (for example) 
+						openapoc\data\languages\ru_RU\LC_MESSAGES, only choose your language</li>
+						<li>Now you will see you changes in the game</li>
+						<li>If problems or questions arise, join our discord and we help you: 
+						<a target="_blank" class="btn btn--mini full-width" href="https://discord.gg/0nS950g1olwDxzXB">OpenApoc at Discord <i class="fab fa-discord" aria-hidden="true"></i></a>
+						</li>
+					</ol>
+		  </div>
+    </div>
+    <div class="tab">
+      <input id="tab-iwanttest" type="radio" name="tabs2">
+      <label for="tab-iwanttest">I want run testing and bugreporting</label>
+      <div class="tab-content">
+					<ol>
+						<li>Setup OpenApoc and register at GitHub</li>
+						<li>If you find some bug in OpenApoc go to GitHub and post bugreport here
+						<a target="_blank" class="btn btn--mini full-width" href="https://github.com/OpenApoc/OpenApoc/issues/new">OpenApoc official bugreport place</a>
+						</li>
+						<li>Pls describe bug very detailed and attach log file (openapoc_log.txt) from OpenApoc root folder</li>
+						<li>If you need attach files wich different extentions, just add them to zip before attach.</li>
+						<li>If you need test how some functions, mechanics works you can use debug hotkey system:
+						<a target="_blank" class="btn btn--mini full-width" href="https://github.com/OpenApoc/OpenApoc/blob/master/README_HOTKEYS.txt">OpenApoc debug hotkey list</a>
+						</li>
+						<li>If problems or questions arise, join our discord and we help you: 
+						<a target="_blank" class="btn btn--mini full-width" href="https://discord.gg/0nS950g1olwDxzXB">OpenApoc at Discord <i class="fab fa-discord" aria-hidden="true"></i></a>
+						</li>
+					</ol>
+      </div>
+    </div>
+    <div class="tab">
+		  <input id="tab-iwantmodding" type="radio" name="tabs2">
+		  <label for="tab-iwantmodding">I want start modding OpenApoc</label>
+		  <div class="tab-content">
+					<ol>
+						<li>There is no currently compelete modding system now, you need modify game xml files in your build to see changes in OpenApoc, 
+						<br>but even now modding easier then in original X-Com Apocalypse. 
+						<li>In future community should add modding system where you can put your modified files in (for example) openapoc\data\mods and then manage it in the game.</li>
+						<li>More info and guides:
+						<a target="_blank" class="btn btn--mini full-width" href="https://github.com/OpenApoc/OpenApoc/blob/master/README.md">Source code at GitHub <i class="fab fa-github farp"></i></</a>
+						<a target="_blank" class="btn btn--mini full-width" href="https://github.com/OpenApoc/OpenApoc/issues">Issues list at GitHub <i class="fab fa-github farp"></i></</a>
+						<a target="_blank" class="btn btn--mini full-width" href="https://github.com/OpenApoc/OpenApoc/graphs/contributors">code contributors list <i class="fab fa-github farp"></i></a>
+						</li>
+						<li>If problems or questions arise, join our discord and we help you: 
+						<a target="_blank" class="btn btn--mini full-width" href="https://discord.gg/0nS950g1olwDxzXB">OpenApoc at Discord <i class="fab fa-discord" aria-hidden="true"></i></a>
+						</li>
+					</ol>
+		  </div>
+    </div>
+	<div class="tab">
+      <input id="tab-iwantart" type="radio" name="tabs2">
+      <label for="tab-iwantart">I want make art piece for OpenApoc</label>
+      <div class="tab-content">
+					<ol>
+						<li>If you Designer, Illustator or CG Artist and you can make fine artwork related to OpenApoc pls join our discord and we discuss this.</li>
+						<li>You can make cover art for promotions, photoshop interface concepts for mods and new mechanics, sprites for new aliens, units, weapons, in general embody your bright vision in design.</li>
+						<li>If problems or questions arise, join our discord and we help you: 
+						<a target="_blank" class="btn btn--mini full-width" href="https://discord.gg/0nS950g1olwDxzXB">OpenApoc at Discord <i class="fab fa-discord" aria-hidden="true"></i></a>
+						</li>
+					</ol>
+      </div>
+    </div>
+	<div class="tab">
+      <input id="tab-iwantgivemoney" type="radio" name="tabs2">
+      <label for="tab-iwantgivemoney">I want support with money</label>
+      <div class="tab-content">
+					<ol>
+						<li>We can use your money to conduct various events to bring more new peoples in projects (programmers) and speed up the development. Check green donations block in contribute section.</li>
+						<li>If problems or questions arise, join our discord and we help you: 
+						<a target="_blank" class="btn btn--mini full-width" href="https://discord.gg/0nS950g1olwDxzXB">OpenApoc at Discord <i class="fab fa-discord" aria-hidden="true"></i></a>
+						</li>
+					</ol>
+      </div>
+    </div>
+<h3 class="spacetop">Whats Left list (roadmap)</h3>
+
+	<div class="tab first">
+      <input id="tab-openapoc-before-2019" type="radio" name="tabs2">
+      <label for="tab-openapoc-before-2019">1. Already done before 2019</label>
+      <div class="tab-content">
+	  				<ol>
+						<li class="done" title=" Done ">Framework core, UI framework core - 2014</li>
+						<li class="done" title=" Done ">Fixes, Game UI, AI, Cityscape core,Tileengine core, data extraction - 2016</li>
+						<li class="done" title=" Done ">Fixes, Game UI, AI, Cityscape, Battlescape core, Framework core, data extraction, Debug system and whole HotKey set (also soldiers equip. HK), Skirmish module,Over 40 Improvements and options interface - 2017</li>
+					</ol>
+      </div>
+    </div>
+    <div class="tab">
+		  <input id="tab-togetalpha" type="radio" name="tabs2">
+		  <label for="tab-togetalpha">2. To have a truly playable Alpha state:</label>
+		  <div class="tab-content">
+        			<ol>
+						<li>Aliens moving from building to building</li>
+						<li class="done" title=" Done ">Alein eggs/Chrysalis seem don't hatch after some time</li>
+						<li>Funding for X-Com and orgs every week</li>
+						<li class="done" title=" Done ">Bribes for organizations</li>
+						<li class="done" title=" Done ">Agent Training from battlescape(?)</li>
+						<li class="done" title=" Done ">Vehicle location screen dragndrop mechanics - redv</li>
+						<li class="done" title=" Done ">Hover screen for items etc - FranciscoDA</li>
+						<li class="done" title=" Done ">Transport repaired at base - Istrebitel</li>
+						<li class="done" title=" Done ">Agent Training on base - Istrebitel</li>
+						<li class="done" title=" Done ">Some fixes to Ufopaedia display</li>
+						<li class="done" title=" Done ">Proper transferring agents and items</li>
+						<li class="done" title=" Done ">AlertScreen extermination</li>
+						<li class="done" title=" Done ">UI hover Tooltips in MAR.06.19</li>
+						<li class="done" title=" Done ">Controls for editing text (naming soldiers and other property)</li>
+					</ol>
+		  </div>
+    </div>
+	<div class="tab">
+		  <input id="tab-togetbeta" type="radio" name="tabs2">
+		  <label for="tab-togetbeta">3. To reach a Beta state (All features implemented):</label>
+		  <div class="tab-content">
+					<ol>
+						<li>Victory & Defeat screens</li>
+						<li>Alien Takeover screen</li>
+						<li>Add description texts to mission briefing, raid and base attack screens </li>
+						<li>Proper portal location in alien dimension</li>
+						<li>Proper portal movement</li>
+						<li>Score screen and graphs</li>
+						<li>Proper collapse algorithm for alien tubes</li>
+						<li>UFO growth halting when relevant building is destroyed</li>
+						<li>Organisations properly buying their vehicles</li>
+						<li>Organisations making treaties, raiding each other and x-com, sending illegal flyers</li>
+						<li>Proper Music (not just 3 looped tracks)</li>
+						<li>Overspawn</li>
+						<li>Proper ground vehicles (occupying lanes, blocking, overtaking etc.)</li>
+						<li>Proper location screen (assigning agents to vehicles)</li>
+						<li>Agent medals and statistics</li>
+						<li>Agent name generator (more than 10 names and surnames)</li>
+						<li>Colored text support</li>
+					</ol>
+		  </div>
+    </div>
+    <div class="tab">
+      <input id="tab-togetrelease" type="radio" name="tabs2">
+      <label for="tab-togetrelease">4. To be fully vanilla feature 1.0:</label>
+      <div class="tab-content">
+					<ol>
+						<li>Better battle AI (behavior, taking cover, more intelligent attack patterns)</li>
+						<li>Battle AI advanced behavior in any mode using:  using cover, crouching, ducking, crawling crawling to be undetected or else, jumping, throwing grenades,  diversionary assaults, flanking,</li>
+						<li>Battle AI taking cover. Safe Mode. Agents seek safety over confrontation.</li>
+						<li>Battle AI: Cautious Mode. Agents use cover and engage the enemy with caution.</li>
+						<li>Battle AI: Aggressive Mode. Agents ignore risks and aggressively seek confrontation.</li>
+						<li>Battle AI maybe as mode. When agents wounds have broken bones. So agents should have penalty to moving and shooting.</li>
+						<li>Battle AI more intelligent attack patterns (crawling under fire, smock grenades and retreat, regroup etc)</li>
+						<li>Better city AI (craft retreat when damaged, other stuff)</li>
+						<li>Different file format than xml for storing save files (at least), so that save/loading takes reasonable amount of time</li>
+						<li>Different handling of game data (separation of "rules" and "gamestate", so that for example you can modify a research project in a mod, add that mod to your playthrough midgame, and not have to lose all progress made on that project, or later remove the project mod, and have the changes reversed but research state persist)</li>
+						<li>Close all issues</li>
+					</ol>
+      </div>
+    </div>
+	
+			
+		</div>
+		<div class="col-six tab-full" data-aos="fade-up" data-aos-duration="300">
+		
+			<h3>General FAQ</h3>
+	<div class="tab first">
+      <input id="tab-one" type="radio" name="tabs2">
+      <label for="tab-one">When will be OpenApoc released?</label>
+      <div class="tab-content">
+					<ol>
+						<li>OpenApoc is free, open-source project so will be ready when ready</li>
+						<li>If problems or questions arise, join our discord and we help you: 
+						<a target="_blank" class="btn btn--mini full-width" href="https://discord.gg/0nS950g1olwDxzXB">OpenApoc at Discord <i class="fab fa-discord" aria-hidden="true"></i></a>
+						</li>
+					</ol>
+      </div>
+    </div>
+	<div class="tab">
+      <input id="tab-two" type="radio" name="tabs2">
+      <label for="tab-two">How i can play in OpenApoc now?</label>
+      <div class="tab-content">
+					<ol>
+						<li>
+						Acquire X-Com Apocalypse original game CD, or an image/archive of that.
+<br>- you need have all files in ISO file including MUSIC etc
+<br>- if it's in .iso format, rename it to "cd.iso"
+<br>- if it's not, copy all the contents into a folder and rename the folder to "cd.iso"
+						
+						</li>
+						<li>
+						Download OpenApoc by visiting  
+						<a target="_blank" class="btn btn--mini full-width smoothscroll" href="#download">Download OpenApoc</a>
+<br>- There should be green lines
+<br>- Click Platform x64 (or Win32 if you need 32bit binaries)
+<br>- Click ARTIFACTS
+<br>- Download the first option (without "debug" in it) in zip
+<br>- Or you can download install exe file (where you can choose destinations)
+<br>- Unzip downloaded file in new folder (for example openapoc)
+<br>- If you see yellow or red lines then go to HISTORY at the top and click previous build that's green
+						</li>
+						<li>
+						Put cd.iso (image or folder) into DATA folder inside OpenApoc folder
+<br>- we also support the .cue / .bin files (which are used, for example, in the gog.com version)
+<br>- you rename the .cue file "cd.iso", put it in the data/ folder, then put the .bin file in the same folder
+<br>(without changing it's name - so for example the gog.com file remails "XCOM.BIN")
+						</li>
+						<li>
+						Run Openapoc.exe and enjoy!
+						</li>
+					</ol>
+      </div>
+    </div>			
+	<div class="tab">
+      <input id="tab-three" type="radio" name="tabs2">
+      <label for="tab-three">What is current OpenApoc primary goal?</label>
+      <div class="tab-content">
+					<ol>
+						<li>Our goal is to reach the state of the original. And only after that to improve or create modifications for the game.</li>
+						<li>If problems or questions arise, join our discord and we help you: 
+						<a target="_blank" class="btn btn--mini full-width" href="https://discord.gg/0nS950g1olwDxzXB">OpenApoc at Discord <i class="fab fa-discord" aria-hidden="true"></i></a>
+						</li>
+					</ol>
+      </div>
+    </div>				
+	<div class="tab">
+      <input id="tab-four" type="radio" name="tabs2">
+      <label for="tab-four">Where the community communicate?</label>
+      <div class="tab-content">
+					<ol>
+						<li>Our communications goes in Discord, pls join: 
+						<a target="_blank" class="btn btn--mini full-width" href="https://discord.gg/0nS950g1olwDxzXB">OpenApoc at Discord <i class="fab fa-discord" aria-hidden="true"></i></a>
+						</li>
+					</ol>
+      </div>
+    </div>				
+	<div class="tab">
+      <input id="tab-five" type="radio" name="tabs2">
+      <label for="tab-five">How to change language in OpenApoc?</label>
+      <div class="tab-content">
+					<ol>
+						<li>Create file name and extension <code>OpenApoc_settings.conf</code> inside OpenApoc folder (if you dont have one).</li>
+						<li>Put these two strings of text in it and save:
+							<p class="code">[Framework]
+							<br>Language=en_GB.UTF-8</p></li>
+						<li>Other languages you can find in openapoc\data\languages</li>
+						</li>
+					</ol>
+      </div>
+    </div>			
+	<div class="tab">
+      <input id="tab-six" type="radio" name="tabs2">
+      <label for="tab-six">How to change screen resolution in OpenApoc?</label>
+      <div class="tab-content">
+					<ol>
+						<li>Create file name and extension <code>OpenApoc_settings.conf</code> inside OpenApoc folder (if you dont have one). </li>
+						<li>Put your screen resolution in that way and save:
+							<p class="code">[Framework.Screen]
+							<br>Width=1920
+							<br>Height=1080
+							<br>Fullscreen=1</p></li>
+						<li>Put these lines if you want skip intro in <code>OpenApoc_settings.conf</code> file and save:
+							<p class="code">[Game]
+							<br>SkipIntro = 1</p></li>
+					</ol>
+      </div>
+    </div>				
+	<div class="tab">
+      <input id="tab-seven" type="radio" name="tabs2">
+      <label for="tab-seven">How to turn on fullscreen in OpenApoc?</label>
+      <div class="tab-content">
+					<ol>
+						<li>Create file name and extension <code>OpenApoc_settings.conf</code> inside OpenApoc folder (if you dont have one). </li>
+						<li>Put your screen resolution in that way and save:
+							<p class="code">[Framework.Screen]
+							<br>Width=1920
+							<br>Height=1080
+							<br>Fullscreen=1</p></li>
+						<li>Put these lines if you want skip intro in <code>OpenApoc_settings.conf</code> file and save:
+							<p class="code">[Game]
+							<br>SkipIntro = 1</p></li>
+					</ol>
+      </div>
+    </div>				
+	<div class="tab">
+      <input id="tab-eight" type="radio" name="tabs2">
+      <label for="tab-eight">Will the cut technologies, items be added to the game?</label>
+      <div class="tab-content">
+					<ol>
+						<li>Some cutted buildings and items already added but only available through cheats. Its possible add fully working items, but after we reach state of original and we reach 1.0</li>
+					</ol>
+      </div>
+    </div>	
+	<div class="tab">
+      <input id="tab-nine" type="radio" name="tabs2">
+      <label for="tab-nine">Problems installing or launching OpenApoc or Apoc?</label>
+      <div class="tab-content">
+					<ol>
+						<li>If you update working OpenApoc and it doesnt boot up you need delete all text that goes after your additions from config file <code>OpenApoc_settings.conf</code></li>
+						<li>If problems or questions arise, join our discord and we help you: 
+						<a target="_blank" class="btn btn--mini full-width" href="https://discord.gg/0nS950g1olwDxzXB">OpenApoc at Discord <i class="fab fa-discord" aria-hidden="true"></i></a>
+						</li>
+					</ol>
+      </div>
+    </div>	
+			
+			
+		</div>
+	</div>
+	<!-- end row -->
+</section>
+<!-- end s-contribute -->
+
+
+    <!-- download
+    ================================================== -->
+    <section id="download" class="s-download target-section">
+
+        <div class="row section-header align-center" data-aos="fade-up" data-aos-duration="300">
+            <div class="col-full">
+                <h1 class="display-1">
+                    Download and Join Our Community in Discord.
+                </h1>
+                <p class="lead">
+After download and testing OpenApoc join Discord to leave feedback.
+                </p>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row">
+            <div class="col-full text-center">
+                <ul class="download-badges" data-aos="fade-up" data-aos-duration="300">
+				<li><a target="_blank" class="btn btn--stroke col-five full-width" href="https://ci.appveyor.com/project/openapoc/openapoc">Windows</a></li>
+				<li><a target="_blank" class="btn btn--stroke  col-five full-width" href="https://travis-ci.org/OpenApoc/OpenApoc">Linux</a></li>
+
+                </ul>
+            </div> 
+        </div>
+
+        <div class="row download-bottom-image" data-aos="fade-up" data-aos-duration="300">
+<iframe src="https://discordapp.com/widget?id=142798944970211328&theme=dark" width="100%" height="400" allowtransparency="true" frameborder="0"></iframe>
+        </div>
+
+    </section> <!-- end s-download -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer class="s-footer footer">
+
+        <div class="row section-header align-center">
+            <div class="col-full">
+                <h1 class="display-1">
+                    Let's Stay In Touch.
+                </h1>
+                <p class="lead">
+                Subscribe for updates, special offers, and other amazing stuff.
+                </p>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row footer__top">
+
+            <div class="col-full footer__subscribe end">
+                <div class="subscribe-form">
+                    <form id="mc-form" class="group" novalidate="true">
+
+                        <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
+            
+                        <input type="submit" name="subscribe" value="Sign Up">
+            
+                        <label for="mc-email" class="subscribe-message"></label>
+            
+                    </form>
+                </div>
+            </div>
+
+        </div> <!-- end footer__top -->
+
+        <div class="row footer__bottom">
+
+            <div class="footer__about col-seven tab-full left">
+
+                <h4>About OpenApoc.</h4>
+
+                <p>
+OpenApoc is an open-source re-implementation of the original X-COM: Apocalypse, that requires the original files to run, licensed 
+under the MIT and written in C++ / SDL2. It was originally founded by PmProg in July 2014, and has since grown in community.
+<br> <br>Want know more? 
+<a target="_blank" class="btn btn--mini btn--primary full-width" href="https://github.com/OpenApoc/OpenApoc/blob/master/README.md">Read OpenApoc Readme <i class="fab fa-github" aria-hidden="true"></i></a>
+
+<br>Need help or have a question? 
+<a target="_blank" class="btn btn--mini btn--primary full-width" href="https://discord.gg/0nS950g1olwDxzXB">Join our Discord <i class="fab fa-discord" aria-hidden="true"></i></a>
+                </p>
+
+                <ul class="footer__social">
+                    <li><a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                    <li><a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="#0"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                </ul>
+				
+
+            </div>
+
+            <div class="col-five md-five tab-full right end">
+                <div class="row">
+
+                    <div class="footer__site-links col-five mob-full">
+                        <h4 class="rightt">Site links.</h4>
+                        <ul class="footer__site-links rightt">
+                    <li ><a class="smoothscroll" href="#home" title="intro">Intro</a></li>
+                    <li><a class="smoothscroll" href="#about" title="about">About</a></li>
+                    <li><a class="smoothscroll" href="#features" title="features">Features</a></li>
+                    <li><a class="smoothscroll" href="#download" title="download">Download</a></li>		
+					<li><a target="_blank" href="https://github.com/OpenApoc/OpenApoc" title="GitHub">GitHub</a></li>	
+					<li><a target="_blank" href="http://openapoc.org/forums/" title="OpenApoc Forum">Forum</a></li>
+					<li><a class="smoothscroll" href="#donate" title="donate">Donate</a></li>			
+                            <li><a href="#0">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+
+					
+                    <div class="footer__contact col-seven  mob-full">
+                <h4 class="rightt">Contribute.</h4>
+                        <ul class="footer__site-links rightt">
+                    <li><a rel="nofollow" class="smoothscroll" href="https://github.com/OpenApoc/OpenApoc" 
+					title="GitHub OpenApoc Readme">OpenApoc Codebase</a></li>
+					<li><a rel="nofollow" class="smoothscroll" href="https://github.com/OpenApoc/OpenApoc/issues" 
+					title="Found bug in OpenApoc? Report a Bug">OpenApoc Bugtracker</a></li>
+                    <li><a rel="nofollow" class="smoothscroll" href="https://www.transifex.com/x-com-apocalypse/apocalypse/" 
+					title="Transifex - translate openapoc to your language">Translate OpenApoc</a></li>
+                        </ul>
+				<h4 class="rightt">Useful links.</h4>
+                        <ul class="footer__site-links rightt">
+                    <li><a rel="nofollow" class="smoothscroll" href="https://www.ufopaedia.org/index.php/OpenApoc" 
+					title="OpenApoc at Ufopaedia.org">OpenApoc at Ufopaedia</a></li>
+                    <li><a rel="nofollow" class="smoothscroll" href="http://webchat.freenode.net/?channels=openapoc" 
+					title="OpenApoc in IRC (need registration for webchat.freenode.net)">OpenApoc in IRC</a></li>	
+                    <li><a rel="nofollow" class="smoothscroll" href="https://habr.com/ru/post/340886/" 
+					title="OpenApoc detailed article (ru)">Detailed article (ru)</a></li>
+                        </ul>
+				<h4 class="rightt">Friends.</h4>
+                        <ul class="footer__site-links rightt">
+                    <li><a rel="nofollow" class="smoothscroll" href="https://openxcom.org/" 
+					title="OpenXcom is released an open-source clone of the original UFO: Enemy Unknown (X-Com: UFO Defense in USA).">OpenXcom</a></li>
+                    <li><a rel="nofollow" class="smoothscroll" href="http://phoenixpoint.info/" 
+					title="Phoenix Point is the new strategy game from the creator of the original X-COM series Julian Gollop.">Phoenix Point</a></li>	
+					<li><a rel="nofollow" class="smoothscroll" href="http://xcom.com/" 
+					title="XCOM is the modern strategy games in XCOM universe">XCOM</a></li>	
+                    <li><a rel="nofollow" class="smoothscroll" href="http://strategycore.co.uk/" 
+					title="Strategy Core is a forum about strategies wich history">Strategy Core</a></li>
+					<li><a rel="nofollow" class="smoothscroll" href="https://www.reddit.com/r/Xcom/" 
+					title="Reddit Xcom - big X-Com community">Reddit Xcom</a></li>
+					<li><a rel="nofollow" class="smoothscroll" href="http://xcomrades.ru/" 
+					title="Xcomrades - big russian X-Com community">Xcomrades</a></li>
+                        </ul>
+                    </div>					
+
+                </div>
+            </div>
+
+            <div class="col-full ss-copyright">
+                <span>&copy; Copyright OpenApoc 2014</span> 
+                <span>Design by <a href="#">Makus</a></span>
+            </div>
+
+        </div> <!-- end footer__bottom -->
+
+        <div class="go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top"></a>
+        </div>
+
+    </footer> <!-- end s-footer -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
