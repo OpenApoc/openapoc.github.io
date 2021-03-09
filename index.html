@@ -132,26 +132,73 @@
 
             </div> <!-- end home-content__main -->
 
+<style>		
+.online-subs-count {
+border-radius:4px;
+color:#eee;
+font-family:Arial;font-size:10px;
+padding:3px 3px 1px!important;
+position:absolute;
+top:0;right:0;
+margin: -6px -10px 0 0px;
+line-height:100%;
+font-weight:700;
+}
+#discord-online {
+background-color:red;
+}
+#facebook-subs {
+background-color:#8a8a8a;
+}
+#vk-subs {
+background-color:#8a8a8a;
+}
+#yt-subs {
+background-color:#8a8a8a;
+}
+#reddit-subs {
+background-color:#8a8a8a;
+}
+</style>
+
+
 <ul class="home-content__social">
-                <li>
-                <a target="_blank" href="https://github.com/OpenApoc/OpenApoc"><i class="fab fa-github" aria-hidden="true"></i><span>GitHub</span></a>
-                </li>
-				<li>
-                <a target="_blank" href="https://discord.gg/f8Rayre"><i class="fab fa-discord" aria-hidden="true"></i><span>Discord</span></a>
-                </li>
-                <li>
-                <a target="_blank" href="https://fb.com/openapoc"><i class="fab fa-facebook-f" aria-hidden="true"></i><span>Facebook</span></a>
-                </li>
-                <li>
-                <a target="_blank" href="https://www.youtube.com/c/OpenApoc"><i class="fab fa-youtube" aria-hidden="true"></i><span>YouTube</span></a>
-                </li>
-				<li>
-                <a target="_blank" href="https://vk.com/openapoc"><i class="fab fa-vk" aria-hidden="true"></i><span>Vkontakte</span></a>
-                </li>
-                <li>
-                <a target="_blank" href="https://www.reddit.com/r/OpenApoc"><i class="fab fa-reddit" aria-hidden="true"></i><span>Reddit</span></a>
-                </li>
-            </ul> <!-- end home-social -->
+    <li>
+    <a target="_blank" href="https://github.com/OpenApoc/OpenApoc"><i class="fab fa-github" aria-hidden="true"></i><span>GitHub</span></a>
+    </li>
+	<li>
+    <a target="_blank" href="https://discord.gg/f8Rayre"><i class="fab fa-discord" aria-hidden="true">
+<div class="online-subs-count" id="discord-online" title="Discord Online"></div>
+</i><span>Discord</span></a>
+    </li>
+    <li>
+    <a target="_blank" href="https://fb.com/openapoc"><i class="fab fa-facebook-f" aria-hidden="true">
+        <div class="online-subs-count" id="facebook-subs" title="Facebook Subscriptions">755</div>
+    </i><span>Facebook</span></a>
+    </li>
+    <li>
+    <a target="_blank" href="https://vk.com/openapoc"><i class="fab fa-vk" aria-hidden="true">
+	<div class="online-subs-count" id="vk-subs" title="Vkontakte Subscriptions">447</div>
+	</i><span>Vkontakte</span></a>
+    </li>
+    <li>
+    <a target="_blank" href="https://www.youtube.com/c/OpenApoc"><i class="fab fa-youtube" aria-hidden="true">
+	    <div class="online-subs-count" id="yt-subs" title="Youtube Subscriptions">365</div>
+	    </i><span>YouTube</span></a>
+    </li>
+
+    <li>
+    <a target="_blank" href="https://www.reddit.com/r/OpenApoc"><i class="fab fa-reddit-alien" aria-hidden="true">
+<div class="online-subs-count" id="reddit-subs" title="Reddit Subscriptions">79</div>
+	    </i><span>Reddit</span></a>
+    </li>
+</ul>
+            
+<script>
+  document.getElementById("discord-online").innerHTML = Math.floor((Math.random() * 160) + 120);
+</script>        
+	    
+<!-- end home-social -->
 
 
         </div> <!-- end home-content -->
@@ -627,7 +674,7 @@ The game also featured a scenario generator and multiplayer options using a hots
       <label for="tab-togetrelease">4. To be fully vanilla feature 1.0:</label>
       <div class="tab-content">
 					<ol>
-						<li><a class="btn btn--mini full-width" target="_blank" href="https://github.com/OpenApoc/OpenApoc/issues/263">Issue where tasks gathered #265</a></li>
+						<li><a class="btn btn--mini full-width" target="_blank" href="https://github.com/OpenApoc/OpenApoc/issues/265">Issue where tasks gathered #265</a></li>
 					</ol>
       </div>
     </div>
@@ -918,17 +965,17 @@ table,
                                 <td>477</td>
 
                             </tr>
-							<tr>
+			<tr>
                                 <td>Issues</td>
                                 <td>187</td>
                                 <td>324</td>
                             </tr>
-							<tr>
+			<tr>
                                 <td>Contributors</td>
                                 <td>31</td>
                                 <td>31</td>
                             </tr>
-                							<tr>
+                	<tr>
                                 <td>Forks</td>
                                 <td>78</td>
                                 <td>78</td>
